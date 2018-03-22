@@ -1,0 +1,63 @@
+form#contact  {
+	border:1px solid #e5e5e5;
+	padding:10px;
+	background:#e9ffd0;
+	border-radius:5px;
+}
+#contact label {
+	font-size: 14px;
+}
+#contact input:required:valid {
+	box-shadow: 0 0 3px #BCEF89;
+	border-color: #BCEF89!important;
+	background: #fff url(images/valid.png) no-repeat 98% center;
+}
+#contact textarea:required:valid {
+	box-shadow: 0 0 3px #BCEF89;
+	border-color: #BCEF89!important;
+}
+#contact input:focus:invalid {
+	box-shadow: 0 0 3px #FFDF97;
+	border-color: #FFDF97!important;
+	background: #fff url(images/invalid.png) no-repeat 98% center;
+}
+#contact textarea:focus:invalid {
+	box-shadow: 0 0 3px #FFDF97;
+	border-color: #FFDF97!important;
+}
+.err {
+	border: 1px solid #ff8c00;
+	padding: 10px;
+	background: #FFDF97;
+	text-align: left;
+	border-radius: 3px;
+}
+.ok {
+	border: 1px #BCEF89 solid;
+	margin-bottom: 15px;
+	padding: 10px;
+	background: #f5f9fd;
+	text-align: center;
+	border-radius: 3px;
+}
+#author, #email, #url {
+	width: 30%;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #e5e5e5;
+}
+#comment {
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #e5e5e5;
+	overflow: auto;
+}
+#submit {
+	font-weight: 400;
+	background: #393;
+	font-size: 15px;
+	color: #fff;
+	padding: 10px 50px;
+	border: none;
+	cursor: pointer;
+}
